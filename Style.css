@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+img{
+    max-width: 100%;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+/* header */
+
+.fixed-width{
+    width: 1270px;
+    margin: auto;
+}
+.header{
+    background-color: cornflowerblue;
+}
+.header-left{
+    float: left;
+    width: 30%;
+}
+.header-left img{
+   width: auto;
+   height: 70px;
+   
+}
+.header-right{
+    float: right;
+    width: 70%;
+}
+
+.header-right ul{
+    text-align: right;
+    
+}
+.header-right ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+.header-right ul li a{
+    display: block;
+    font-size: 25px;
+    text-decoration: none;
+    color: #fff;
+    padding: 0 25px;
+    line-height: 75px;
+    border-right: 1px solid#ddd;
+    transition: .4s;
+}
+.header-right ul li a:hover{
+    background-color: rgb(29, 93, 212);
+}
+/* banner */
+.baner-section{
+    background: url(./Img/roundtable-bg-banner_v1.jpg) no-repeat center;
+    background-size: cover;
+    padding: 200px 0;
+}
+.baner-caption h2{
+    background: rgba(0, 0, 0, 0.486);
+    display: inline-block;
+    color: #fff;
+    font-size: 35px;
+    padding: 10px 20px;
+    border-radius: 7px;
+}
+.baner-caption h1{
+    background: rgba(0, 0, 0, 0.507);
+    max-width: 500px;
+    margin: auto;
+    color: #fff;
+    font-size: 32px;
+    padding: 10px 0;
+    border-radius: 7px;
+    margin-top: 15px;
+}
+/* about scetion */
+
+.about{
+    margin: 40px 0;
+}
+.about-section{}
+.about-section h2{
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+.about-section p{
+    max-width: 700px;
+    font-size: 18px;
+    margin: auto;
+}
+
+/* service */
+.service{
+    background-color: #fafafa;
+    padding: 70px;
+}
+.service-item{
+    float: left;
+    width: 31.3%;
+    border: 1px solid#ddd;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.service-item span{
+    display: block;
+    font-size: 30px;
+    background-color: cornflowerblue;
+    height: 50px;
+    width: 50px;
+    margin: auto;
+    line-height: 50px;
+    border-radius: 15px 0 15px 0;
+    color: #fff;
+}
+.service-item h3{
+    margin: 20px 0;
+    font-size: 30px;
+}
+.service-item p{
+    font-size: 20px;
+    line-height: 1.3em;
+}
+
+/* blog */
+.blog-section{
+    margin: 50px 0;
+}
+.blog-content-left{
+    float: left;
+    width: 70%;
+}
+.blog-item img{
+    float: left;
+    width: 140px;
+    height: auto;
+    margin-right: 10px;
+}
+.blog-content-right{
+    float: right;
+    width: 25%;
+}
+.blog-item{
+    margin-bottom: 30px;
+}
+
+.blog-content-right{}
+.blog-content-right h3{
+    font-size: 35px;
+    border-bottom: 2px solid#fafa;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+.blog-content-right ul{
+    list-style: none;
+}
+.blog-content-right ul li{
+    border: 1px solid #ddd;
+    padding: 15px ;
+    margin-bottom: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    background: #fafafa;
+    transition: .4s;
+}
+.blog-content-right ul li:hover{
+    background: rgb(56, 112, 214);
+    color: rgb(81, 15, 97);
+}
+/* footer */
+.footer{
+    background-color: rgba(0, 0, 0, 0.781);
+    color: #fff;
+    padding: 10px 0;
+}
+.footer-left{
+    float: left;
+    width: 30%;
+}
+.footer-left p{
+    font-size: 20px;
+}
+
+.footer-right{
+    float: right;
+    width: 70%;
+}
+.footer-item{
+    text-align: right;
+}
+.footer-item ul{
+    text-decoration: none;
+}
+.footer-item ul li{
+    display: inline-block;
+}
+.footer-item ul li a{
+    color: #fff;
+    font-size: 25px;
+    margin-left: 10px;
+}
